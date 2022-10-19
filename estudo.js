@@ -38,11 +38,26 @@ function total(){
     
     if(!Number(valor)){
         alert("O valor deve ser o número.");
+        document.getElementById("val").value= "";
+        document.getElementById("val").focus();
         return 
     }
-    
-    
-    
+
+    if(!Number(juros)){
+        alert("O valor dos juros deve ser um número por favor.");
+        document.getElementById("ju").value= "";
+        document.getElementById("ju").focus();
+        return 
+    }
+
+    if(!Number(meses)){
+        alert("A quantidade de meses deve ser número animal.");
+        document.getElementById("meses").value= "";
+        document.getElementById("meses").focus();
+
+        return 
+    }
+
     
     let resultado = 0;
     for(let i = 1; i <= mes; i++){
