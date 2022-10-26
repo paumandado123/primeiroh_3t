@@ -4,6 +4,14 @@
     width: 200px;
     border-radius: 10px;
 }
+
+.listaMensal {
+    padding: 10px;
+    background: rgb(12, 12, 12);
+    width: 200px;
+    border-radius: 20px;
+}
+
 .calculadora input{
     background: rgb(255, 254, 254);
     color: rgb(0, 0, 0);
